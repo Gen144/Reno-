@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #4e4e52;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.portrait {
+    font-size: 25px;
+    line-height: 10px;
+    background: url('Martinez.jpg')no-repeat center;
+    background-size: contain;
+}
+
+
+/* This part is important for the feature itself */
+
+.portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(236, 247, 250, 0.1);
+}
